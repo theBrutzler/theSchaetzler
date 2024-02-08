@@ -159,6 +159,7 @@ void setup() {
   pinMode(ledPin, OUTPUT);
   pinMode(VCC_DISPLAY,OUTPUT);
   digitalWrite(VCC_DISPLAY, HIGH);
+  delay(500);
   digitalWrite(ledPin, LOW);
   pinMode(Button, INPUT_PULLUP);
   

@@ -1,0 +1,33 @@
+{
+    layout {
+        type grid,
+        rows 1,
+        cols 1,
+        hspace 0mm,
+        vspace 0mm,
+        rotation 0deg,
+        alternation none,
+        renamenet Board_{n}-{orig},
+        renameref {orig}
+    },
+    source {
+        type auto,
+        tolerance 1mm
+    },
+    tabs {
+        type normal,
+        source none
+    },
+    cuts {
+        type none
+    },
+    framing {
+        type none,
+        thickness 0mm,
+    },
+    post {
+        type auto,
+        millradius 0mm,
+        copperfill false
+    }
+}
